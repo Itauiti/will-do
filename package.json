@@ -2,6 +2,7 @@
   "name": "will-do",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://itauiti.github.io/will-do/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.0",
@@ -17,6 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "buildnpm": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
