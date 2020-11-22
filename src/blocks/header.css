@@ -1,0 +1,37 @@
+.header {
+  min-height: 60px;
+  color: #fff;
+  background-color: #222;
+  transition: all 0.3s linear;
+}
+
+.header_scroll {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(197, 197, 197);
+  color: #222;
+  z-index: 2;
+}
+
+.header__container {
+  max-width: 1340px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  position: relative;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.header__logo {
+  line-height: 24px;
+  margin-right: auto;
+  font-weight: bold;
+  padding-right: 5px;
+}
+

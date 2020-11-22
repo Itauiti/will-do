@@ -1,0 +1,11 @@
+.main {
+  min-height: 500px;
+  flex-grow: 1;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+}

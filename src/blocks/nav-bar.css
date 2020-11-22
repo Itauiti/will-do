@@ -1,13 +1,17 @@
 .menu {
   display: flex;
-  margin: 5px auto;
+  transition: all 0.3s linear;
 }
 
 .menu__item {
   text-decoration: none;
-  font-size: 21px;
   margin-right: 15px;
+  color: inherit;
 }
+/*
+.menu__item_scroll {
+  color: #222;
+} */
 
 .menu__item:last-of-type {
   margin-right: 0;
