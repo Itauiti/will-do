@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 function NavBar() {
-  const isLoggedIn = true;
+  const isLoggedIn = false;
 
   return (
     <nav className="menu">

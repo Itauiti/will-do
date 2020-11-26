@@ -1,0 +1,24 @@
+.auth-page {
+  font-family: 'Inter', Arial, sans-serif;
+  width: 590px;
+  margin: 60px auto;
+  padding: 15px;
+  flex: 1 0 auto;
+}
+
+.auth-page__title {
+  font-size: 24px;
+}
+
+.auth-page__text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.auth-page__link {
+  text-decoration: none;
+}
+
+.auth-page__colored-text {
+  color: rgb(24, 168, 204);
+}
