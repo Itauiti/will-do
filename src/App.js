@@ -15,14 +15,15 @@ function App() {
     axios.get(API)
       .then((res) => {
         setData(res.data.results);
+        console.log('used useEffect Api');
       })
   }, []);
   return (
     <Router>
       <div className="app">
         <UsersDataContext.Provider value={data}>
-        <Header />
-        { routes }
+          <Header />
+          { routes }
         </UsersDataContext.Provider>
         <Footer />
       </div>

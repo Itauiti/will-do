@@ -6,6 +6,9 @@
 
 Первостепенной задачей является функионал, а не дизайн сайта.
 
+## Ссылка на Gh-pages
+https://github.com/Itauiti/will-do
+
 ## Функционал и технологии:
 
 - Сайт single-page application (SPA).
@@ -19,11 +22,11 @@
 
 
 ## В разработке:
- - Имитировать вход и выход из аккаунта нажатием на кнопку
- - Слайдер
- - ScrollUp кнопка
- - Страницы Авторизации и Личного кабинета
- - Раскрытие Подробнее
+- Имитировать вход и выход из аккаунта нажатием на кнопку
+- Слайдер
+- ScrollUp кнопка
+- Страницы Авторизации и Личного кабинета
+- Раскрытие Подробнее
 
 ## Планируется
 - Проверка передаваемых данных
@@ -34,10 +37,11 @@
 
 ## В работе использовались:
 - Create React App
-- react-router-dom[https://www.npmjs.com/package/react-router-dom]
-- axios[https://www.npmjs.com/package/axios]
-- react-scroll-up [https://www.npmjs.com/package/react-scroll-up]
-- react-slick [https://www.npmjs.com/package/react-slick]
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+- [axios](https://www.npmjs.com/package/axios)
+- [react-scroll-up] (https://www.npmjs.com/package/react-scroll-up)
+- [react-slick] (https://www.npmjs.com/package/react-slick)
+- [gh-pages](https://www.npmjs.com/package/gh-pages)
 
 ## Стэк технологий:
 React.js, CSS3, HTML5, GIT

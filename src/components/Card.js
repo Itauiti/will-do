@@ -24,7 +24,6 @@ class Card extends React.Component {
   render() {
     const { name, logo } = this.props;
     const { isLiked, counter } = this.state;
-    const likeIconClass = `${isLiked ? 'card__like-icon card__like-icon_liked' : 'card__like-icon'}`;
     return (
       <div className="card">
         <img className="card__user-img" src={logo} alt="" />
@@ -36,7 +35,10 @@ class Card extends React.Component {
           <button className="card__link">Подробнее &rarr;</button>
           <div className="card__icon-container">
             <div className="card__like-counter">{counter}</div>
-            <button className={likeIconClass} onClick={this.handeleLikeClick}></button>
+            <button
+              className={isLiked ? 'card__like-icon card__like-icon_liked' : 'card__like-icon'}
+              onClick={this.handeleLikeClick}>
+            </button>
           </div>
         </div>
       </div>

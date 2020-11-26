@@ -1,0 +1,45 @@
+/* Кастомная перенастройка Slider */
+
+.slick-slider.slick-initialized {
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  width: auto;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.slick-next {
+  height: 30px;
+  width: 30px;
+  right: -35px;
+}
+
+.slick-prev {
+  height: 30px;
+  width: 30px;
+  left: -35px;
+}
+
+.slick-prev:before {
+  content: '\2940';
+  font-size: 30px;
+}
+
+.slick-next:before {
+  content: '\2941';
+  font-size: 30px;
+}
