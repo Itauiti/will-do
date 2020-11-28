@@ -7,7 +7,7 @@
 Первостепенной задачей является функионал, а не дизайн сайта.
 
 ## Ссылка на Gh-pages
-https://github.com/Itauiti/will-do
+https://itauiti.github.io/will-do
 
 ## Функционал и технологии:
 
@@ -17,6 +17,8 @@ https://github.com/Itauiti/will-do
 - Card - классовый компонент (просто для примера), остальные функциональные. 
 - Данные для карточек берутся со стороннего открытого API.
 - Используются Хуки: useState, useEffect, useContext, useRouteMatch.
+- Настроены схемы валидации форм с помощью Yup
+- Настроены формы с валидацией с выводом ошибок, блокирование кнопки отправки (со сменой стилей), если форма не валидна. Использован Formik
 - Постановка/снятие лайка
 - В зависимости от авторизации показываются разные страницы и навигация (переключается в ручном режиме, т.к. нет бэкенда. В компоненте NavBar меняется const isLoggedIn на false или true)
 
@@ -39,9 +41,11 @@ https://github.com/Itauiti/will-do
 - Create React App
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 - [axios](https://www.npmjs.com/package/axios)
-- [react-scroll-up] (https://www.npmjs.com/package/react-scroll-up)
-- [react-slick] (https://www.npmjs.com/package/react-slick)
+- [react-scroll-up](https://www.npmjs.com/package/react-scroll-up)
+- [react-slick](https://www.npmjs.com/package/react-slick)
 - [gh-pages](https://www.npmjs.com/package/gh-pages)
+- [yup](https://www.npmjs.com/package/yup)
+- [formik](https://www.npmjs.com/package/formik)
 
 ## Стэк технологий:
 React.js, CSS3, HTML5, GIT
