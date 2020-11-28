@@ -14,7 +14,7 @@ https://itauiti.github.io/will-do
 - Сайт single-page application (SPA).
 - Настроен роутер и переходы между страницами Главная, Сохраненные статьи, вложенные маршруты.
 - Хедер при скролле вниз принимает фиксированное состояние и меняет цвет.
-- Card - классовый компонент (просто для примера), остальные функциональные. 
+- Card, MoreAboutCard - классовые компоненты (просто для примера), остальные функциональные. 
 - Данные для карточек берутся со стороннего открытого API.
 - Используются Хуки: useState, useEffect, useContext, useRouteMatch.
 - Настроены схемы валидации форм с помощью Yup
@@ -25,24 +25,21 @@ https://itauiti.github.io/will-do
 
 
 ## В разработке:
+- Открытие профиля через динамические маршруты
+- История переходов
 - Имитировать вход и выход из аккаунта нажатием на кнопку
-- Слайдер
-- ScrollUp кнопка
-- Страницы Авторизации и Личного кабинета
-- Раскрытие Подробнее
+- Страница Личного кабинета
 
 ## Планируется
-- Проверка передаваемых данных
 - Связка с SCSS
 - Выбор из нескольких видов лайков
-- Фильтр по новым пользователям и тем, на кого подписан
 - Адаптивная верстка
+- Мультиязычность
 
 ## В работе использовались:
 - Create React App
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 - [axios](https://www.npmjs.com/package/axios)
-- [react-scroll-up](https://www.npmjs.com/package/react-scroll-up)
 - [react-slick](https://www.npmjs.com/package/react-slick)
 - [gh-pages](https://www.npmjs.com/package/gh-pages)
 - [yup](https://www.npmjs.com/package/yup)
