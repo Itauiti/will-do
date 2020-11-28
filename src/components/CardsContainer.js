@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import Card from './Card.js';
 import {UsersDataContext} from '../App.js';
+import PropTypes from 'prop-types';
 
 
 function CardsContainer() {
@@ -19,6 +20,10 @@ function CardsContainer() {
       })}
     </div>
   )
+}
+
+CardsContainer.propTypes = {
+  data: PropTypes.arrayOf(PropTypes.object),
 }
 
 export default CardsContainer;
