@@ -52,7 +52,7 @@ const FormSignUp = () => (
           <button
             type="submit"
             className={isValid ? "form__button form__button_activ" : "form__button"}
-          >Войти</button>
+          >Зарегистрироваться</button>
         </Form>
       )}
     </Formik>

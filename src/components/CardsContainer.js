@@ -6,15 +6,16 @@ import PropTypes from 'prop-types';
 
 function CardsContainer() {
   const data = useContext(UsersDataContext);
+  const isAddInfo = true;
 
   return (
     <div className="cards-container">
-      {data.map(({ name, picture }, i) => {
+      {data.map((userData, i) => {
         return (
           <Card
-            name = {`${name.first} ${name.last}` }
-            logo = { picture.medium }
+            userData = {userData}
             key = { i }
+            isAddInfo = {isAddInfo}
           />
         )
       })}

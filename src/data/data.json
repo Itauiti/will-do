@@ -1,0 +1,112 @@
+{
+  "results": [
+    {
+      "name": {
+        "first": "Signe",
+        "last": "Hansen"
+      },
+      "email": "signe.hansen@example.com",
+      "login": {
+        "uuid": "155e77ee-ba6d-486f-95ce-0e0c0fb4b919",
+        "username": "silverswan131",
+        "password": "firewall",
+        "salt": "TQA1Gz7x",
+        "md5": "dc523cb313b63dfe5be2140b0c05b3bc",
+        "sha1": "7a4aa07d1bedcc6bcf4b7f8856643492c191540d",
+        "sha256": "74364e96174afa7d17ee52dd2c9c7a4651fe1254f471a78bda0190135dcd3480"
+      },
+      "id": "0490511T",
+      "picture": "https://randomuser.me/api/portraits/women/61.jpg"
+    },
+    {
+      "name": {
+        "first": "Raquel",
+        "last": "Cabrera"
+      },
+      "email": "raquel.cabrera@example.com",
+      "login": {
+        "uuid": "155e77ee-ba6d-486f-95ce-0e0c0fb4b919",
+        "username": "silverswan131",
+        "password": "firewall",
+        "salt": "TQA1Gz7x",
+        "md5": "dc523cb313b63dfe5be2140b0c05b3bc",
+        "sha1": "7a4aa07d1bedcc6bcf4b7f8856643492c191540d",
+        "sha256": "74364e96174afa7d17ee52dd2c9c7a4651fe1254f471a78bda0190135dcd3480"
+      },
+      "id": "0350511T",
+      "picture": "https://randomuser.me/api/portraits/women/80.jpg"
+    },
+    {
+      "name": {
+        "first": "Everett",
+        "last": "Fitzsimmons"
+      },
+      "email": "everett.fitzsimmons@example.com",
+      "login": {
+        "uuid": "155e77ee-ba6d-486f-95ce-0e0c0fb4b919",
+        "username": "silverswan131",
+        "password": "firewall",
+        "salt": "TQA1Gz7x",
+        "md5": "dc523cb313b63dfe5be2140b0c05b3bc",
+        "sha1": "7a4aa07d1bedcc6bcf4b7f8856643492c191540d",
+        "sha256": "74364e96174afa7d17ee52dd2c9c7a4651fe1254f471a78bda0190135dcd3480"
+      },
+      "id": "0590511T",
+      "picture": "https://randomuser.me/api/portraits/men/34.jpg"
+    },
+    {
+      "name": {
+        "first": "Joel",
+        "last": "Saari"
+      },
+      "email": "joel.saari@example.com",
+      "login": {
+        "uuid": "155e77ee-ba6d-486f-95ce-0e0c0fb4b919",
+        "username": "silverswan131",
+        "password": "firewall",
+        "salt": "TQA1Gz7x",
+        "md5": "dc523cb313b63dfe5be2140b0c05b3bc",
+        "sha1": "7a4aa07d1bedcc6bcf4b7f8856643492c191540d",
+        "sha256": "74364e96174afa7d17ee52dd2c9c7a4651fe1254f471a78bda0190135dcd3480"
+      },
+      "id": "0390711T",
+      "picture": "https://randomuser.me/api/portraits/men/81.jpg"
+    },
+    {
+      "name": {
+        "first": "Alexis",
+        "last": "Lawrence"
+      },
+      "email": "alexis.lawrence@example.com",
+      "login": {
+        "uuid": "155e77ee-ba6d-486f-95ce-0e0c0fb4b919",
+        "username": "silverswan131",
+        "password": "firewall",
+        "salt": "TQA1Gz7x",
+        "md5": "dc523cb313b63dfe5be2140b0c05b3bc",
+        "sha1": "7a4aa07d1bedcc6bcf4b7f8856643492c191540d",
+        "sha256": "74364e96174afa7d17ee52dd2c9c7a4651fe1254f471a78bda0190135dcd3480"
+      },
+      "id": "0390514T",
+      "picture": "https://randomuser.me/api/portraits/women/68.jpg"
+    },
+    {
+      "name": {
+        "first": "Brad",
+        "last": "Gibson"
+      },
+      "email": "brad.gibson@example.com",
+      "login": {
+        "uuid": "155e77ee-ba6d-486f-95ce-0e0c0fb4b919",
+        "username": "silverswan131",
+        "password": "firewall",
+        "salt": "TQA1Gz7x",
+        "md5": "dc523cb313b63dfe5be2140b0c05b3bc",
+        "sha1": "7a4aa07d1bedcc6bcf4b7f8856643492c191540d",
+        "sha256": "74364e96174afa7d17ee52dd2c9c7a4651fe1254f471a78bda0190135dcd3480"
+      },
+      "id": "0390511T",
+      "picture": "https://randomuser.me/api/portraits/men/75.jpg"
+    }
+  ]
+}

@@ -30,14 +30,19 @@ class Card extends React.Component {
   }
 
   render() {
-    const { name, logo, key } = this.props;
+    const user = this.props.userData;
+    const isAddInfo = this.props.isAddInfo;
     const { isLiked, counter } = this.state;
     return (
       <div className="card">
         <div className={this.state.more ? "card__main card__main_theme_dark" : "card__main"}>
-          <img className="card__user-img" src={logo} alt="" />
+          {isAddInfo &&
+            <img className="card__user-img" src={user.picture} alt="" />
+          }
           <div className="card__top">
-            <h2 className="card__user-name">{name}</h2>
+            <h2 className="card__user-title">
+              {isAddInfo ? `${user.name.first} ${user.name.last}` : 'Название конкретной цели данного пользователя'}
+            </h2>
             <p className="card__text">Поставлена цель такая-то, потому что...., обязательно сделаю!</p>
           </div>
           <div className="card__bottom">
@@ -46,7 +51,7 @@ class Card extends React.Component {
               onClick={this.handeleShowMore}
             >
               Подробнее &rarr;
-          </button>
+            </button>
             <div className="card__icon-container">
               <div className="card__like-counter">{counter}</div>
               <button
@@ -56,16 +61,17 @@ class Card extends React.Component {
             </div>
           </div>
         </div>
-        {this.state.more ? <MoreAboutCard name = {name} key = {key} logo = {logo}/> : null}
+        {this.state.more ? <MoreAboutCard
+          userData={user}
+          isAddInfo = {isAddInfo}
+        /> : null}
       </div>
     )
   }
 }
 
 Card.propTypes = {
-  name: PropTypes.string,
-  logo: PropTypes.string,
-  key: PropTypes.number,
+  user: PropTypes.object,
 }
 
 export default Card;
